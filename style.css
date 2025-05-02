@@ -1,0 +1,386 @@
+header{
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 30px 10px;
+    background-color: #fff0f0;
+    position: fixed;
+    top:0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header .logo a{
+    color: rgb(56, 31, 43);
+    /* border: 2px solid rgb(228, 170, 21); */
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+header nav ul{
+    /* border: 2px solid rgb(128, 6, 0); */
+    display: flex;
+    list-style-type: none;
+}
+header nav ul li{
+    border: 1px solid grey;
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    border-radius: 5px;
+    /* border: none; */
+}
+header nav ul li:hover{
+    background-color: pink;
+    color: rgb(255, 253, 253);
+}    
+header nav ul li a{
+    text-decoration: none;
+}    
+header nav ul li a:hover{
+    color: rgb(113, 52, 82);
+}    
+header .cart{
+    /* border: 2px solid rgb(0, 17, 128); */
+    font-size: 20px;
+    margin-right: 10px;
+    
+}
+
+main{
+    margin-top: 50px;
+}
+
+main .Home{
+    /* background-color: #f0f0f0; */
+    background-image: url("images/homePageimg.jpg");
+    /* background-position: middle; */
+    /* background-position: bottom; */
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    
+    align-items: center;
+    /* border: 2px solid blue; */
+    /* font-family: cursive; */
+    padding: 10px;
+    /* margin-top: 100px; */
+    height: 400px;
+}
+main .Home .detail{
+    /* border: 2px solid green; */
+    width: 50%;
+}
+
+main .Home .detail h1,h2{
+    text-align: left;
+    /* font-size: 30px; */
+    font-family: sans-serif;
+}
+main .Home .detail h1{
+    color: rgb(56, 31, 43);
+    font-size: 30px;;
+}
+main .Home .detail h2{
+    color: rgb(113, 32, 72);
+    font-size: 25px;;
+}
+main .Home .detail p{
+    color: rgb(99, 49, 49);
+    font-family: sans-serif;
+}
+main .Home .image img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+main .Product{
+    /* color: green; */
+    /* border: 2px solid green; */
+    padding-top: 50px;
+}
+main .Product h1{
+    color: green;
+}
+main .product-list{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+main .product-list .product{
+    border: 1px solid rgb(160, 161, 160);
+    width:200px;
+    /* height:400px; */
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+ }
+ main .product-list .product img{
+     width: 150px;
+     height: 150px; 
+     /* border: 2px solid blue; */
+ } 
+ main .product-list .product .item-name{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: rgb(124, 124, 124);
+    font-size: 20px;
+    margin-bottom: 5px;
+ }
+ main .product-list .product .item-price{
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: bold;
+    color: rgb(4, 72, 4);
+ }
+ main .product-list .product .item-price strike{
+    /* font-family: 'Poppins', sans-serif; */
+    font-weight: normal;
+    color: rgb(96, 98, 96);
+ }
+
+main .product-list .product p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+main .About{
+    /* border: 2px solid green; */
+    background-color: #f0f0f0;
+    padding:50px 0;
+}
+main .About h1{
+    text-align: center;
+    color: rgb(87, 3, 56);
+    font-family: cursive;
+    margin-bottom: 50px;
+}
+main .image-detail{
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid blue; */
+    /* font-family: cursive; */
+    padding:50px 10px;
+}
+
+main .About .detail{
+    /* border: 2px solid green; */
+    width: 50%;;
+    margin-left: 10px;
+    /* font-family: cursive; */
+}
+
+main .About .detail h2{
+    font-size: 20px;
+    color: rgb(87, 3, 56);
+}
+main .About .image img{
+    /* border-radius: 50%; */
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+#About .benefits{
+    /* border:5px solid rgb(2, 42, 127); */
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(237, 237, 237);
+    padding: 30px 0;
+}
+#About .benefits .benefit{
+    /* border:5px solid rgb(127, 2, 73); */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+}
+#About .benefits .benefit i{
+    font-size: 20px;
+    margin-right: 8px;
+}
+#About .benefits .benefit p{
+    font-size: 12px;
+    font-family: sans-serif;
+    color: rgb(61, 60, 60);
+    /* font-weight: bold; */
+}
+
+#Products>h1{
+    text-align: center;
+    color: rgb(87, 3, 56);
+    font-family: cursive;
+    margin-bottom: 50px;
+}
+#Products>p{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(61, 60, 60);
+    text-align: center;
+}
+#Products ul{
+    display: flex;
+   list-style-type: none;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+#Products ul li img{
+    width: 200px;
+    height: 200px;
+}
+
+
+main .Review{
+    /* display: flex;
+    justify-content: space-around; */
+    /* border: 2px solid green; */
+    background-color: #fadede;
+    padding: 50px 0 70px;
+
+}
+main .Review>h1{
+    text-align: center;
+    color: rgb(87, 3, 56);
+    font-family: cursive;
+}
+main .Review .reviews{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+main .Review .reviews div{
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    /* text-align: center; */
+    color: rgb(92, 89, 89);
+    font-family: cursive;
+    margin: 10px;
+    margin-top: 50px;
+    padding: 10px;
+    width: 170px;
+}
+main .Review .reviews div span{
+    font-size: 20px;
+    border: 2px solid rgb(87, 3, 56);
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+main .Contact{
+    /* border: 2px solid green; */
+    padding: 50px 0 0px;
+}
+main .Contact h1{
+    /* margin-bottom: 50px; */
+    text-align: center;
+    color: rgb(87, 3, 56);
+}
+
+main .Contact .contact-detail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+main .Contact .contact-detail img{
+    width: 50%;
+}
+main .Contact .contact-detail form{
+    /* border: 2px solid green; */
+    padding-left: 30px;
+    width: 50%;
+}
+main .Contact .contact-detail form p{
+    font-family: cursive;
+    color: rgb(92, 89, 89);
+}
+main .Contact .contact-detail form input,textarea{
+    outline: none;
+    width: 80%;
+}
+main .Contact .contact-detail form input{
+    outline: none;
+    height: 25px;
+}
+main .Contact .contact-detail form textarea{
+    resize: none;
+    height: 80px;;
+}
+
+footer{
+    text-align: center;
+    /* border: 2px solid green; */
+    padding: 50px;
+    background-color: #fff0f0;
+}
+
+footer .healthify{
+    display: flex;
+    justify-content: space-between;
+}
+footer .healthify .logo{
+    border: none;
+}
+footer .healthify .logo h2 a{
+    text-decoration: none;
+    color: rgb(87, 3, 56);
+}
+footer .healthify .logo p{
+    color: grey;
+    text-align: left;
+    width:50%;;
+}
+
+footer .healthify .contact-details{
+    color: grey;
+}
+
+footer .copy{
+    color: grey;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: rgb(87, 3, 56);
+    border: none;
+    border-radius:20px;
+    color: white;
+    cursor: pointer;
+}
+
+.top{
+    /* width: 40px;
+    height: 40px; */
+    border: 2px solid brown;
+    /* border-radius: 50%; */
+    background-color: rgba(165, 42, 42, 0.651);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+.top a{
+    text-decoration:none;
+}
+.top .top-text{
+    /* font-size: 30px; */
+    color:brown;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
